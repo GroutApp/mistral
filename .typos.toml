@@ -1,0 +1,17 @@
+[default]
+extend-ignore-identifiers-re = [
+    "Mmaped",
+    "mmaped",
+    "arange",
+    "Nd",
+    "nin",
+    "cudaDevAttrMaxSharedMemoryPerBlockOptin",
+    "_thw"
+]
+
+[files]
+extend-exclude = [
+    "mistralrs-pyo3/pdoc/*",
+    "examples/server/phi3_duckduckgo_mistral.rs.ipynb",
+    "calibration_data/*"
+]
